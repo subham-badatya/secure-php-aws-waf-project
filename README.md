@@ -45,10 +45,11 @@ secure-php-aws-waf-project/
 ![WAF Block](screenshots/waf-403.png)
 
 ### AWS WAF CAPTCHA Working
-![WAF CAPTCHA](screenshots/waf-captchaworking.png)
+![WAF CAPTCHA](screenshots/waf-captcha-working.png)
 
 ### AWS WAF SQL Injection Blocked
-![WAF SQL Injection](screenshots/waf-sql-injection.png)
+![WAF SQL Injection](screenshots/waf-sql-injection-block.png)
+
 
 ### CloudWatch Logs – Allowed Request
 ![CloudWatch Allow](screenshots/cloudwatch-log-allow.png)
