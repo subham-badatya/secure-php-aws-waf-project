@@ -1,4 +1,4 @@
-# Secure PHP Web Application using AWS WAF (Priority Rules)
+# Secure PHP Web Application using AWS WAF
 
 ## Overview
 This project demonstrates how to deploy and secure a PHP web application on AWS
@@ -20,9 +20,38 @@ AWS WAF logs are sent to CloudWatch Logs for monitoring and analysis.
 ## Security Features
 - AWS WAF attached to ALB
 - IP blocking rules
-- SQL Injection protection (managed rules)
-- CAPTCHA for suspicious requests
+- SQL Injection protection
+- CAPTCHA for suspicious traffic
 - Rule priority configuration
 - Request logging using CloudWatch Logs
 
 ## Project Structure
+secure-php-aws-waf-project/
+├── src/
+├── sql/
+├── architecture/
+├── screenshots/
+└── README.md
+
+## Screenshots
+
+### Application Access via ALB
+![ALB Output](screenshots/alb-output.png)
+
+### Application Access via EC2
+![EC2 Output](screenshots/EC2-output.png)
+
+### AWS WAF Blocked Request (403)
+![WAF Block](screenshots/waf-403.png)
+
+### AWS WAF CAPTCHA Working
+![WAF CAPTCHA](screenshots/waf-captchaworking.png)
+
+### AWS WAF SQL Injection Blocked
+![WAF SQL Injection](screenshots/waf-sql-injection.png)
+
+### CloudWatch Logs – Allowed Request
+![CloudWatch Allow](screenshots/cloudwatch-log-allow.png)
+
+### CloudWatch Logs – Blocked Request
+![CloudWatch Block](screenshots/cloudwatch-log-Block.png)
