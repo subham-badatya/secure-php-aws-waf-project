@@ -45,7 +45,8 @@ secure-php-aws-waf-project/
 ![WAF Block](screenshots/waf-403.png)
 
 ### AWS WAF CAPTCHA Working
-![WAF CAPTCHA](screenshots/waf-captcha-working.png)
+![WAF CAPTCHA](screenshots/waf-captcha%20working.png)
+
 
 ### AWS WAF SQL Injection Blocked
 ![WAF SQL Injection](screenshots/waf-sql-injection-block.png)
