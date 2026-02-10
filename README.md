@@ -9,7 +9,7 @@ The application runs on EC2 instances and uses a MySQL database.
 User → AWS WAF → Application Load Balancer (ALB) → EC2 (PHP + Apache) → MySQL  
 AWS WAF logs are sent to CloudWatch Logs for monitoring and analysis.
 
-![AWS PHP WAF Architecture](aws-php-waf-architecture.png)
+![AWS PHP WAF Architecture](architecture/aws-php-waf-architecture.png)
 
 This project demonstrates a secure and highly available PHP application protected by AWS WAF.
 
