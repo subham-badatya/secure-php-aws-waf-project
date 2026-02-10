@@ -15,7 +15,7 @@ This project demonstrates a secure and highly available PHP application protecte
 
 
 ## AWS Services Used
-- Amazon VPC
+- Amazon VPC.
 - EC2 (Apache + PHP)
 - Application Load Balancer (ALB)
 - AWS WAF (IP Block, SQL Injection, CAPTCHA, Rule Priority)
